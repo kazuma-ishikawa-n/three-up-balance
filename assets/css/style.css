@@ -1467,6 +1467,67 @@ body {
 .CompanyList__serviceList > li::before {
   content: "・";
 }
+.newsList__item {
+  display: flex;
+  font-size: 13px;
+  margin:40px 0 ;
+}
+.newsList__term,
+.newsList__description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.newsList__term {
+  width: 30%;
+  max-width: 180px;
+  color: var(--color-primary);
+  font-weight: 700;
+  border-bottom: 1px solid var(--color-primary);
+  padding-left: 3%;
+}
+.newsList__description {
+  flex: 1;
+  padding-left: 3%;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+.newsList__item:first-of-type .newsList__term {
+  border-top: 1px solid var(--color-primary);
+}
+.newsList__item:first-of-type .newsList__description {
+  border-top: 1px solid #ccc;
+}
+.newsList__serviceList {
+  list-style: none;
+}
+.newsList__serviceList > li {
+  display: flex;
+}
+.newsList__serviceList > li::before {
+  content: "・";
+}
+.news_days{
+  font-size:12px;
+  font-weight: lighter;
+}
+.midashi{
+  text-align: center;
+  margin:10px 0
+}
+.komidashi{
+  margin:1em 0 5px;
+}
+.news_img_Content{
+  display: flex;
+  margin:0 0 30px;
+}
+.news__img {
+    max-width: 500px;
+    width: 50%;
+}
+.mgr{
+margin-left: 5%;
+}
 
 /* アクセス */
 .AccessSection {
