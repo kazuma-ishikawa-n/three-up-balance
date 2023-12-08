@@ -1477,6 +1477,9 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.newsList__description a {
+  color: #333333;
+}
 .newsList__term {
   width: 30%;
   max-width: 180px;
